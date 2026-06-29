@@ -194,16 +194,21 @@ export default function PoseCanvas({ yogaType, onSessionComplete }) {
     const onResults = (results) => {
       if (!activeRef.current) return;
       
-      const width = canvasElement.width;
-      const height = canvasElement.height;
+      const imgWidth = results.image.width || results.image.videoWidth || 640;
+      const imgHeight = results.image.height || results.image.videoHeight || 480;
+      
+      if (canvasElement.width !== imgWidth || canvasElement.height !== imgHeight) {
+        canvasElement.width = imgWidth;
+        canvasElement.height = imgHeight;
+      }
       
       canvasCtx.save();
-      canvasCtx.clearRect(0, 0, width, height);
+      canvasCtx.clearRect(0, 0, imgWidth, imgHeight);
       
       // Draw mirror-flipped camera frame
-      canvasCtx.translate(width, 0);
+      canvasCtx.translate(imgWidth, 0);
       canvasCtx.scale(-1, 1);
-      canvasCtx.drawImage(results.image, 0, 0, width, height);
+      canvasCtx.drawImage(results.image, 0, 0, imgWidth, imgHeight);
       canvasCtx.restore();
 
       if (results.poseLandmarks) {
@@ -289,6 +294,8 @@ export default function PoseCanvas({ yogaType, onSessionComplete }) {
 
   // Custom Neon Skeleton Drawing helper
   const drawNeonSkeleton = (ctx, landmarks, metMatrix) => {
+    const width = ctx.canvas.width;
+    const height = ctx.canvas.height;
     // MediaPipe key connections
     const connections = [
       [11, 12], [11, 13], [13, 15], [12, 14], [14, 16], // Upper body
@@ -307,8 +314,8 @@ export default function PoseCanvas({ yogaType, onSessionComplete }) {
       if (p1 && p2 && p1.visibility > 0.5 && p2.visibility > 0.5) {
         ctx.beginPath();
         // Flip x coordinate because canvas displays mirrored video
-        ctx.moveTo((1 - p1.x) * 640, p1.y * 480);
-        ctx.lineTo((1 - p2.x) * 640, p2.y * 480);
+        ctx.moveTo((1 - p1.x) * width, p1.y * height);
+        ctx.lineTo((1 - p2.x) * width, p2.y * height);
         ctx.lineWidth = 4;
         ctx.strokeStyle = lineColor;
         ctx.shadowColor = lineColor;
@@ -323,7 +330,7 @@ export default function PoseCanvas({ yogaType, onSessionComplete }) {
       const keyJoints = [11, 12, 13, 14, 15, 16, 23, 24, 25, 26, 27, 28];
       if (keyJoints.includes(idx) && p.visibility > 0.5) {
         ctx.beginPath();
-        ctx.arc((1 - p.x) * 640, p.y * 480, 6, 0, 2 * Math.PI);
+        ctx.arc((1 - p.x) * width, p.y * height, 6, 0, 2 * Math.PI);
         ctx.fillStyle = pointColor;
         ctx.shadowColor = "#ffffff";
         ctx.shadowBlur = 6;
@@ -345,7 +352,7 @@ export default function PoseCanvas({ yogaType, onSessionComplete }) {
     <div className="grid grid-cols-1 xl:grid-cols-3 gap-8">
       {/* Video & AI Canvas Panel */}
       <div className="xl:col-span-2 flex flex-col gap-4">
-        <div className="relative w-full aspect-video rounded-3xl overflow-hidden glass-panel border border-white/10 shadow-2xl bg-black/60">
+        <div className="relative w-full aspect-[3/4] sm:aspect-video rounded-3xl overflow-hidden glass-panel border border-white/10 shadow-2xl bg-black/60">
           
           {/* Hidden HTML Video element to feed frames into MediaPipe */}
           <video
