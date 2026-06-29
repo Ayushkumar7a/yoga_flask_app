@@ -6,4 +6,8 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [react(), tailwindcss()],
   base: '/yoga_flask_app/',
+  server: {
+    host: true,
+    port: 5173
+  }
 })
