@@ -3,6 +3,9 @@
 # Exit on error
 set -e
 
+# Resolve script directory and navigate to frontend/
+cd "$(dirname "$0")"
+
 echo "Building production React app..."
 npm run build
 
