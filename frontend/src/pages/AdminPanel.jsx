@@ -1,3 +1,4 @@
+import { API_BASE_URL } from '../config';
 import React, { useEffect, useState } from 'react';
 import { 
   ShieldCheck, Users, Dumbbell, Percent, Clock, UserMinus, ShieldAlert, 
@@ -45,27 +46,27 @@ export default function AdminPanel() {
       const headers = { 'Authorization': `Bearer ${token}` };
       
       // 1. Fetch Analytics
-      const aRes = await fetch('http://127.0.0.1:5000/api/admin/analytics', { headers });
+      const aRes = await fetch(`\${API_BASE_URL}/api/admin/analytics`, { headers });
       const aData = await aRes.json();
       if (aRes.ok) setAnalytics(aData);
       
       // 2. Fetch Users
-      const uRes = await fetch('http://127.0.0.1:5000/api/admin/users', { headers });
+      const uRes = await fetch(`\${API_BASE_URL}/api/admin/users`, { headers });
       const uData = await uRes.json();
       if (uRes.ok) setUsers(uData);
 
       // 3. Fetch Poses
-      const pRes = await fetch('http://127.0.0.1:5000/api/poses');
+      const pRes = await fetch(`\${API_BASE_URL}/api/poses`);
       const pData = await pRes.json();
       if (pRes.ok) setPoses(pData);
 
       // 4. Fetch Tutorials
-      const tRes = await fetch('http://127.0.0.1:5000/api/tutorials');
+      const tRes = await fetch(`\${API_BASE_URL}/api/tutorials`);
       const tData = await tRes.json();
       if (tRes.ok) setTutorials(tData);
 
       // 5. Fetch Feedback
-      const fRes = await fetch('http://127.0.0.1:5000/api/admin/feedback', { headers });
+      const fRes = await fetch(`\${API_BASE_URL}/api/admin/feedback`, { headers });
       const fData = await fRes.json();
       if (fRes.ok) setFeedbacks(fData);
 
@@ -89,7 +90,7 @@ export default function AdminPanel() {
     if (!window.confirm(`Are you sure you want to permanently delete user "${targetUsername}"?`)) return;
 
     try {
-      const response = await fetch(`http://127.0.0.1:5000/api/admin/users/${userId}`, {
+      const response = await fetch(`${API_BASE_URL}/api/admin/users/${userId}`, {
         method: 'DELETE',
         headers: { 'Authorization': `Bearer ${token}` }
       });
@@ -121,7 +122,7 @@ export default function AdminPanel() {
     };
 
     try {
-      const response = await fetch('http://127.0.0.1:5000/api/admin/poses', {
+      const response = await fetch(`\${API_BASE_URL}/api/admin/poses`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -148,7 +149,7 @@ export default function AdminPanel() {
   const handleDeletePose = async (poseId) => {
     if (!window.confirm("Are you sure you want to delete this pose?")) return;
     try {
-      const response = await fetch(`http://127.0.0.1:5000/api/admin/poses/${poseId}`, {
+      const response = await fetch(`${API_BASE_URL}/api/admin/poses/${poseId}`, {
         method: 'DELETE',
         headers: { 'Authorization': `Bearer ${token}` }
       });
@@ -172,7 +173,7 @@ export default function AdminPanel() {
     }
 
     try {
-      const response = await fetch('http://127.0.0.1:5000/api/admin/tutorials', {
+      const response = await fetch(`\${API_BASE_URL}/api/admin/tutorials`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -196,7 +197,7 @@ export default function AdminPanel() {
   const handleDeleteTutorial = async (tutId) => {
     if (!window.confirm("Delete this tutorial session?")) return;
     try {
-      const response = await fetch(`http://127.0.0.1:5000/api/admin/tutorials/${tutId}`, {
+      const response = await fetch(`${API_BASE_URL}/api/admin/tutorials/${tutId}`, {
         method: 'DELETE',
         headers: { 'Authorization': `Bearer ${token}` }
       });
@@ -215,7 +216,7 @@ export default function AdminPanel() {
   const handleDeleteFeedback = async (fbId) => {
     if (!window.confirm("Remove this feedback message from logs?")) return;
     try {
-      const response = await fetch(`http://127.0.0.1:5000/api/admin/feedback/${fbId}`, {
+      const response = await fetch(`${API_BASE_URL}/api/admin/feedback/${fbId}`, {
         method: 'DELETE',
         headers: { 'Authorization': `Bearer ${token}` }
       });

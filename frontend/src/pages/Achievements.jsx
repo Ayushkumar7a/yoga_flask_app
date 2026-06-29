@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Award, Lock, ShieldCheck, Flame, Zap, Trophy } from 'lucide-react';
+import { API_BASE_URL } from '../config';
 
 export default function Achievements() {
   const token = localStorage.getItem('token');
@@ -49,7 +50,7 @@ export default function Achievements() {
   useEffect(() => {
     const fetchAchievements = async () => {
       try {
-        const response = await fetch('http://127.0.0.1:5000/api/achievements', {
+        const response = await fetch(`${API_BASE_URL}/api/achievements`, {
           headers: { 'Authorization': `Bearer ${token}` }
         });
         const data = await response.json();

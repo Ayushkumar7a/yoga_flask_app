@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Video, Search, Clock, Award, PlayCircle, ExternalLink } from 'lucide-react';
+import { API_BASE_URL } from '../config';
 
 export default function Tutorials() {
   const [tutorials, setTutorials] = useState([]);
@@ -10,7 +11,7 @@ export default function Tutorials() {
   useEffect(() => {
     const fetchTutorials = async () => {
       try {
-        const res = await fetch('http://127.0.0.1:5000/api/tutorials');
+        const res = await fetch(`${API_BASE_URL}/api/tutorials`);
         const data = await res.json();
         if (res.ok) {
           setTutorials(data);

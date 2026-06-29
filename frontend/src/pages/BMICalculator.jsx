@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Calculator, Award, Sparkles, ChevronRight, AlertCircle } from 'lucide-react';
+import { API_BASE_URL } from '../config';
 
 export default function BMICalculator() {
   const [weight, setWeight] = useState('');
@@ -22,7 +23,7 @@ export default function BMICalculator() {
     }
 
     try {
-      const response = await fetch('http://127.0.0.1:5000/api/bmi', {
+      const response = await fetch(`${API_BASE_URL}/api/bmi`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({

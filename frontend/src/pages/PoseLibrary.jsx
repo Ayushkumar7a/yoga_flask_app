@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Search, Info, X, Compass, AlertTriangle, Lightbulb } from 'lucide-react';
+import { API_BASE_URL } from '../config';
 
 export default function PoseLibrary() {
   const [poses, setPoses] = useState([]);
@@ -12,7 +13,7 @@ export default function PoseLibrary() {
   useEffect(() => {
     const fetchPoses = async () => {
       try {
-        const res = await fetch('http://127.0.0.1:5000/api/poses');
+        const res = await fetch(`${API_BASE_URL}/api/poses`);
         const data = await res.json();
         if (res.ok) {
           setPoses(data);

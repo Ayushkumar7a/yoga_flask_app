@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import { API_BASE_URL } from '../config';
 import { 
   Chart as ChartJS, CategoryScale, LinearScale, PointElement, 
   LineElement, Title, Tooltip, Legend, Filler 
@@ -42,7 +43,7 @@ export default function Dashboard() {
     if (!feedbackForm.message) return;
     setSubmittingFeedback(true);
     try {
-      const response = await fetch('http://127.0.0.1:5000/api/feedback', {
+      const response = await fetch(`${API_BASE_URL}/api/feedback`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -70,19 +71,19 @@ export default function Dashboard() {
         const headers = { 'Authorization': `Bearer ${token}` };
         
         // 1. Fetch dashboard stats
-        const statsRes = await fetch('http://127.0.0.1:5000/api/dashboard/stats', { headers });
+        const statsRes = await fetch(`${API_BASE_URL}/api/dashboard/stats`, { headers });
         const statsData = await statsRes.json();
         
         // 2. Fetch history logs
-        const logsRes = await fetch('http://127.0.0.1:5000/api/logs', { headers });
+        const logsRes = await fetch(`${API_BASE_URL}/api/logs`, { headers });
         const logsData = await logsRes.json();
         
         // 3. Fetch personalized recommendations
-        const recsRes = await fetch('http://127.0.0.1:5000/api/recommendations', { headers });
+        const recsRes = await fetch(`${API_BASE_URL}/api/recommendations`, { headers });
         const recsData = await recsRes.json();
         
         // 4. Fetch profile details
-        const profRes = await fetch('http://127.0.0.1:5000/api/auth/profile', { headers });
+        const profRes = await fetch(`${API_BASE_URL}/api/auth/profile`, { headers });
         const profData = await profRes.json();
 
         if (statsRes.ok) setStats(statsData);
@@ -175,7 +176,7 @@ export default function Dashboard() {
 
         <div className="flex flex-wrap gap-4">
           <a
-            href={`http://127.0.0.1:5000/api/reports/pdf?token=${token}`}
+            href={`${API_BASE_URL}/api/reports/pdf?token=${token}`}
             target="_blank"
             rel="noreferrer"
             className="px-5 py-3 rounded-2xl bg-white/5 hover:bg-white/10 border border-white/5 text-sm font-medium flex items-center gap-2 cursor-pointer shadow-md transition-all active:scale-95 text-slate-200"

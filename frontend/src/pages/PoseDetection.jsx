@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import PoseCanvas from '../components/PoseCanvas';
 import { Compass, Sparkles, Award, ArrowRight, Home, RefreshCw } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { API_BASE_URL } from '../config';
 
 export default function PoseDetection() {
   const token = localStorage.getItem('token');
@@ -24,7 +25,7 @@ export default function PoseDetection() {
     
     // Save to backend REST API
     try {
-      await fetch('http://127.0.0.1:5000/api/logs', {
+      await fetch(`${API_BASE_URL}/api/logs`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
