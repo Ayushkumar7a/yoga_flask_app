@@ -13,6 +13,7 @@ echo "Navigating into build directory..."
 cd dist
 
 echo "Initializing Git repository in dist..."
+rm -rf .git
 git init
 git checkout -B gh-pages
 
