@@ -1,0 +1,521 @@
+[
+  {
+    "id": "tadasana",
+    "name": "Mountain Pose",
+    "sanskrit_name": "Tadasana",
+    "category": "Standing",
+    "difficulty": "Beginner",
+    "duration": "30-60 seconds",
+    "benefits": ["Improves posture", "Strengthens legs", "Establishes grounding and focus"],
+    "steps": [
+      "Stand with feet together, big toes touching, heels slightly apart.",
+      "Distribute weight evenly across both feet.",
+      "Engage thighs, draw belly in, and roll shoulders back.",
+      "Arms rest by sides with palms facing forward.",
+      "Align head over spine, looking straight ahead."
+    ],
+    "common_mistakes": ["Locking the knees", "Arching the lower back", "Tensing shoulders"],
+    "precautions": ["Low blood pressure", "Dizziness/lightheadedness"]
+  },
+  {
+    "id": "adho_mukha_svanasana",
+    "name": "Downward-Facing Dog",
+    "sanskrit_name": "Adho Mukha Svanasana",
+    "category": "Inversion",
+    "difficulty": "Beginner",
+    "duration": "1-3 minutes",
+    "benefits": ["Stretches hamstrings and calves", "Strengthens arms and shoulders", "Relieves stress"],
+    "steps": [
+      "Start on hands and knees, hands slightly forward of shoulders.",
+      "Tuck toes and lift knees away from the floor.",
+      "Extend tailbone up toward the ceiling, pushing hips back.",
+      "Press heels toward the mat, keeping legs straight or slightly bent.",
+      "Press hands firmly into the mat, fingers spread."
+    ],
+    "common_mistakes": ["Rounding the spine", "Placing too much weight on hands", "Letting shoulders collapse"],
+    "precautions": ["Carpal tunnel syndrome", "High blood pressure", "Late-term pregnancy"]
+  },
+  {
+    "id": "phalakasana",
+    "name": "Plank Pose",
+    "sanskrit_name": "Phalakasana",
+    "category": "Core / Strength",
+    "difficulty": "Beginner",
+    "duration": "30-60 seconds",
+    "benefits": ["Strengthens the core", "Tones arms and shoulders", "Improves posture"],
+    "steps": [
+      "Start in Downward Dog, then push torso forward until arms are vertical.",
+      "Keep shoulders aligned directly over wrists.",
+      "Keep body in a straight line from head to heels.",
+      "Engage core and thighs to prevent hips from sagging."
+    ],
+    "common_mistakes": ["Sagging hips", "Arching lower back", "Looking straight down, straining neck"],
+    "precautions": ["Carpal tunnel syndrome", "Wrist injuries"]
+  },
+  {
+    "id": "trikonasana",
+    "name": "Triangle Pose",
+    "sanskrit_name": "Trikonasana",
+    "category": "Standing",
+    "difficulty": "Beginner",
+    "duration": "30-60 seconds",
+    "benefits": ["Stretches hips, spine, and chest", "Strengthens legs and core", "Improves balance"],
+    "steps": [
+      "Stand with feet wide apart. Turn right foot out 90 degrees.",
+      "Extend arms to the sides, parallel to the floor.",
+      "Hinge at the right hip, extending torso over right leg.",
+      "Lower right hand to shin, ankle, or floor, and reach left hand up.",
+      "Gaze up toward left hand if comfortable."
+    ],
+    "common_mistakes": ["Bending the knees", "Collapsing chest forward", "Straining the neck"],
+    "precautions": ["Low blood pressure", "Heart problems", "Neck injury"]
+  },
+  {
+    "id": "virabhadrasana_i",
+    "name": "Warrior I",
+    "sanskrit_name": "Virabhadrasana I",
+    "category": "Standing",
+    "difficulty": "Beginner",
+    "duration": "30-60 seconds",
+    "benefits": ["Stretches chest and lungs", "Strengthens shoulders and arms", "Strengthens thighs and calves"],
+    "steps": [
+      "Stand in Tadasana, step left foot back 3-4 feet and turn it out 45 degrees.",
+      "Align right heel with left heel.",
+      "Bend right knee to 90 degrees, directly over ankle.",
+      "Raise arms overhead, parallel or palms touching.",
+      "Turn pelvis forward toward front edge of mat."
+    ],
+    "common_mistakes": ["Rear heel lifting", "Right knee splaying inward", "Arching lower back too much"],
+    "precautions": ["High blood pressure", "Shoulder or neck injuries"]
+  },
+  {
+    "id": "virabhadrasana_ii",
+    "name": "Warrior II",
+    "sanskrit_name": "Virabhadrasana II",
+    "category": "Standing",
+    "difficulty": "Beginner",
+    "duration": "30-60 seconds",
+    "benefits": ["Strengthens legs and ankles", "Stretches groin and chest", "Builds stamina"],
+    "steps": [
+      "Stand feet wide apart, turn right foot out 90 degrees and left foot slightly in.",
+      "Bend right knee to 90 degrees over right ankle.",
+      "Extend arms out to the sides, parallel to the floor.",
+      "Turn head and gaze over right fingers.",
+      "Keep torso upright, not leaning forward."
+    ],
+    "common_mistakes": ["Leaning torso forward", "Front knee caving inward", "Dropping arms below shoulder level"],
+    "precautions": ["Diarrhea", "High blood pressure", "Neck injuries"]
+  },
+  {
+    "id": "vrkshasana",
+    "name": "Tree Pose",
+    "sanskrit_name": "Vrkshasana",
+    "category": "Balance",
+    "difficulty": "Beginner",
+    "duration": "30-60 seconds",
+    "benefits": ["Improves balance and focus", "Strengthens legs and spine", "Stretches groin and inner thighs"],
+    "steps": [
+      "Stand in Tadasana. Shift weight onto left leg.",
+      "Bend right knee, placing sole of right foot against left inner thigh or calf.",
+      "Never place foot directly on the knee joint.",
+      "Bring hands to prayer position at chest or extend them overhead.",
+      "Find a steady point to focus your gaze."
+    ],
+    "common_mistakes": ["Placing foot on the knee", "Allowing standing hip to splay outward", "Losing balance and tensing shoulders"],
+    "precautions": ["Headache", "Insomnia", "Low blood pressure"]
+  },
+  {
+    "id": "bhujangasana",
+    "name": "Cobra Pose",
+    "sanskrit_name": "Bhujangasana",
+    "category": "Backbend",
+    "difficulty": "Beginner",
+    "duration": "15-30 seconds",
+    "benefits": ["Strengthens spine", "Stretches chest, shoulders, and abdomen", "Relieves stress and fatigue"],
+    "steps": [
+      "Lie face down on floor, tops of feet flat on mat.",
+      "Place hands under shoulders, elbows close to ribs.",
+      "Press tops of feet and thighs firmly into mat.",
+      "Inhale, press hands down to lift chest off floor.",
+      "Keep shoulders down away from ears."
+    ],
+    "common_mistakes": ["Straightening arms completely and locking elbows", "Shoulders crunching near ears", "Straining lower back"],
+    "precautions": ["Back injury", "Pregnancy", "Recent abdominal surgery"]
+  },
+  {
+    "id": "balasana",
+    "name": "Child's Pose",
+    "sanskrit_name": "Balasana",
+    "category": "Restorative",
+    "difficulty": "Beginner",
+    "duration": "1-5 minutes",
+    "benefits": ["Calms brain, relieves stress", "Stretches hips, thighs, and ankles", "Relieves back and neck pain"],
+    "steps": [
+      "Kneel on floor, touch big toes together, sit on heels.",
+      "Separate knees about hip-width apart.",
+      "Fold torso forward over thighs, resting forehead on mat.",
+      "Lay arms forward palms down, or backward along sides."
+    ],
+    "common_mistakes": ["Lifting hips too high off heels", "Straining the neck", "Holding breath"],
+    "precautions": ["Pregnancy", "Knee injuries", "Diarrhea"]
+  },
+  {
+    "id": "setu_bandha_sarvangasana",
+    "name": "Bridge Pose",
+    "sanskrit_name": "Setu Bandha Sarvangasana",
+    "category": "Backbend",
+    "difficulty": "Beginner",
+    "duration": "30-60 seconds",
+    "benefits": ["Stretches chest, neck, and spine", "Strengthens back, buttocks, and hamstrings", "Improves digestion"],
+    "steps": [
+      "Lie on back, bend knees, place feet flat on floor hip-width apart.",
+      "Exhale and press feet and arms into floor, lifting hips.",
+      "Keep thighs and feet parallel.",
+      "Clasp hands under lower back, stretching arms toward feet."
+    ],
+    "common_mistakes": ["Letting knees splay apart", "Lifting shoulders off floor", "Turning neck while in pose"],
+    "precautions": ["Neck injuries", "Late pregnancy"]
+  },
+  {
+    "id": "utkatasana",
+    "name": "Chair Pose",
+    "sanskrit_name": "Utkatasana",
+    "category": "Standing / Strength",
+    "difficulty": "Beginner",
+    "duration": "30-60 seconds",
+    "benefits": ["Strengthens thighs, calves, and ankles", "Stretches shoulders and chest", "Stimulates abdominal organs"],
+    "steps": [
+      "Stand in Tadasana, inhale and raise arms overhead.",
+      "Exhale, bend knees, and lower hips as if sitting in a chair.",
+      "Try to keep thighs parallel to the floor.",
+      "Keep back straight and chest lifted."
+    ],
+    "common_mistakes": ["Knees splaying past toes", "Rounding the back", "Letting knees collapse inward"],
+    "precautions": ["Headache", "Insomnia", "Low blood pressure"]
+  },
+  {
+    "id": "utkata_konasana",
+    "name": "Goddess Pose",
+    "sanskrit_name": "Utkata Konasana",
+    "category": "Standing / Hip Opener",
+    "difficulty": "Beginner",
+    "duration": "30-60 seconds",
+    "benefits": ["Strengthens inner thighs and groin", "Builds shoulder strength", "Improves balance"],
+    "steps": [
+      "Stand with feet about 3 feet apart. Turn toes out 45 degrees.",
+      "Bend knees deeply, aiming for thighs parallel to ground.",
+      "Bend elbows 90 degrees with fingers pointing up (cactus arms).",
+      "Keep spine tall, tailbone tucked."
+    ],
+    "common_mistakes": ["Torso leaning forward", "Knees caving inward", "Sinking hips too low without core control"],
+    "precautions": ["Recent hip, knee, or shoulder injury"]
+  },
+  {
+    "id": "savasana",
+    "name": "Corpse Pose",
+    "sanskrit_name": "Savasana",
+    "category": "Restorative",
+    "difficulty": "Beginner",
+    "duration": "5-15 minutes",
+    "benefits": ["Calms nervous system", "Relieves stress and depression", "Lowers blood pressure"],
+    "steps": [
+      "Lie flat on back, feet wider than hip-width apart.",
+      "Let feet roll open. Extend arms slightly out from sides, palms up.",
+      "Close eyes, soften face, breathe naturally.",
+      "Relax entire body completely, letting go of thoughts."
+    ],
+    "common_mistakes": ["Falling asleep", "Fidgeting or moving", "Tensing muscles unconsciously"],
+    "precautions": ["Severe back pain (bend knees or support with a bolster)"]
+  },
+  {
+    "id": "navasana",
+    "name": "Boat Pose",
+    "sanskrit_name": "Navasana",
+    "category": "Core",
+    "difficulty": "Intermediate",
+    "duration": "10-30 seconds",
+    "benefits": ["Strengthens abdomen, hip flexors, and spine", "Improves balance", "Aids digestion"],
+    "steps": [
+      "Sit with knees bent, feet flat on floor.",
+      "Lean back slightly, keeping spine straight.",
+      "Lift feet off floor, keeping knees bent or straightening legs.",
+      "Extend arms forward, parallel to floor.",
+      "Balance on sit bones, creating a V shape."
+    ],
+    "common_mistakes": ["Rounding the lower back", "Collapsing the chest", "Holding breath"],
+    "precautions": ["Asthma", "Heart problems", "Pregnancy", "Low blood pressure"]
+  },
+  {
+    "id": "ustrasana",
+    "name": "Camel Pose",
+    "sanskrit_name": "Ustrasana",
+    "category": "Backbend",
+    "difficulty": "Intermediate",
+    "duration": "30 seconds",
+    "benefits": ["Stretches entire front of body", "Strengthens back muscles", "Improves posture"],
+    "steps": [
+      "Kneel on floor, knees hip-width apart. Tops of feet flat on floor.",
+      "Place hands on lower back, fingers pointing down.",
+      "Lean back slowly, lifting chest toward ceiling.",
+      "If comfortable, reach hands back to touch heels.",
+      "Keep thighs perpendicular to floor."
+    ],
+    "common_mistakes": ["Leaning hips back past knees", "Straining lower back", "Letting head drop completely without control"],
+    "precautions": ["High or low blood pressure", "Migraine", "Serious back or neck injury"]
+  },
+  {
+    "id": "garudasana",
+    "name": "Eagle Pose",
+    "sanskrit_name": "Garudasana",
+    "category": "Balance",
+    "difficulty": "Intermediate",
+    "duration": "15-30 seconds",
+    "benefits": ["Improves balance", "Stretches shoulders and upper back", "Strengthens calves and ankles"],
+    "steps": [
+      "Stand in Tadasana, bend knees slightly.",
+      "Lift right leg, wrap right thigh over left, hook right foot behind left calf.",
+      "Cross left elbow inside right, wrap forearms, palms touch.",
+      "Lift elbows to shoulder height and press palms together."
+    ],
+    "common_mistakes": ["Dropping elbows toward chest", "Losing balance and leaning torso forward", "Unclasping hands"],
+    "precautions": ["Knee injuries"]
+  },
+  {
+    "id": "matsyasana",
+    "name": "Fish Pose",
+    "sanskrit_name": "Matsyasana",
+    "category": "Backbend",
+    "difficulty": "Beginner",
+    "duration": "30-60 seconds",
+    "benefits": ["Stretches chest, neck, and throat", "Strengthens upper back and neck", "Improves breathing"],
+    "steps": [
+      "Lie on back, knees bent, feet flat. Slide hands under buttocks, palms down.",
+      "Squeeze elbows close together.",
+      "Inhale, press elbows into floor, arch chest up.",
+      "Lower head back, resting crown lightly on floor."
+    ],
+    "common_mistakes": ["Putting too much weight on head", "Splaying knees out", "Holding breath"],
+    "precautions": ["High or low blood pressure", "Migraine", "Serious neck injury"]
+  },
+  {
+    "id": "malasana",
+    "name": "Garland Pose",
+    "sanskrit_name": "Malasana",
+    "category": "Standing / Squat",
+    "difficulty": "Beginner",
+    "duration": "30-60 seconds",
+    "benefits": ["Stretches ankles, groin, and back", "Tones belly", "Improves balance"],
+    "steps": [
+      "Squat with feet close together, heels flat if possible.",
+      "Separate thighs wider than torso.",
+      "Press elbows against inner knees, bring palms to prayer position.",
+      "Lengthen spine and lift chest."
+    ],
+    "common_mistakes": ["Heels lifting off floor (support with towel if needed)", "Rounding the spine", "Collapsing chest"],
+    "precautions": ["Knee or lower back injury"]
+  },
+  {
+    "id": "ardha_chandrasana",
+    "name": "Half Moon Pose",
+    "sanskrit_name": "Ardha Chandrasana",
+    "category": "Balance",
+    "difficulty": "Intermediate",
+    "duration": "30 seconds",
+    "benefits": ["Strengthens ankles and knees", "Stretches groin, hamstrings, and shoulders", "Improves balance"],
+    "steps": [
+      "From Triangle Pose, place left hand on left hip. Bend right knee.",
+      "Step right hand forward 12 inches on the floor.",
+      "Lift left leg parallel to floor, straightening right leg.",
+      "Rotate chest open to left, raising left arm up."
+    ],
+    "common_mistakes": ["Locking standing knee", "Collapsing torso toward floor", "Straining neck"],
+    "precautions": ["Headache", "Low blood pressure", "Sleep issues"]
+  },
+  {
+    "id": "natarajasana",
+    "name": "King Dancer Pose",
+    "sanskrit_name": "Natarajasana",
+    "category": "Balance / Backbend",
+    "difficulty": "Advanced",
+    "duration": "20-30 seconds",
+    "benefits": ["Strengthens legs and ankles", "Stretches shoulders and chest", "Improves balance and focus"],
+    "steps": [
+      "Stand in Tadasana. Shift weight onto right foot.",
+      "Bend left knee, reach back with left hand to clasp inner left ankle.",
+      "Lift left foot up and back, away from torso.",
+      "Reach right arm forward, parallel to floor."
+    ],
+    "common_mistakes": ["Splaying left knee out to side", "Dropping right arm", "Arching lower back pain fully"],
+    "precautions": ["Recent knee, ankle, or hip injury", "Balance disorders"]
+  },
+  {
+    "id": "salabhasana",
+    "name": "Locust Pose",
+    "sanskrit_name": "Salabhasana",
+    "category": "Backbend",
+    "difficulty": "Beginner",
+    "duration": "30 seconds",
+    "benefits": ["Strengthens spine, buttocks, and back of arms", "Stretches shoulders, chest, and belly", "Relieves lower back pain"],
+    "steps": [
+      "Lie face down, arms along sides, palms down.",
+      "Exhale and lift head, chest, arms, and legs off floor.",
+      "Gaze forward or slightly down to keep neck long.",
+      "Keep arms parallel, palms facing each other."
+    ],
+    "common_mistakes": ["Straining neck", "Bending knees", "Holding breath"],
+    "precautions": ["Headache", "Serious back or neck injury", "Pregnancy"]
+  },
+  {
+    "id": "supta_baddha_konasana",
+    "name": "Reclining Bound Angle",
+    "sanskrit_name": "Supta Baddha Konasana",
+    "category": "Restorative",
+    "difficulty": "Beginner",
+    "duration": "5-10 minutes",
+    "benefits": ["Stretches groin and inner thighs", "Stimulates abdominal organs", "Relieves stress and anxiety"],
+    "steps": [
+      "Lie on back, bend knees, place feet flat on floor.",
+      "Bring soles of feet together, let knees drop open to sides.",
+      "Rest arms comfortably, palms up, by sides.",
+      "Close eyes and breathe deeply."
+    ],
+    "common_mistakes": ["Forcing knees down", "Arching lower back off mat"],
+    "precautions": ["Groin or knee injury (support knees with blocks)"]
+  },
+  {
+    "id": "dandasana",
+    "name": "Staff Pose",
+    "sanskrit_name": "Dandasana",
+    "category": "Seated",
+    "difficulty": "Beginner",
+    "duration": "30-60 seconds",
+    "benefits": ["Strengthens back muscles", "Stretches chest and shoulders", "Improves posture"],
+    "steps": [
+      "Sit on floor, legs straight out in front.",
+      "Flex feet, pulling toes toward torso.",
+      "Place palms flat on floor next to hips, fingers pointing forward.",
+      "Lengthen spine, lift chest, tuck chin slightly."
+    ],
+    "common_mistakes": ["Rounding the lower back", "Locking knees", "Sinking chest"],
+    "precautions": ["Wrist or lower back injury"]
+  },
+  {
+    "id": "urdhva_mukha_svanasana",
+    "name": "Upward-Facing Dog",
+    "sanskrit_name": "Urdhva Mukha Svanasana",
+    "category": "Backbend",
+    "difficulty": "Intermediate",
+    "duration": "15-30 seconds",
+    "benefits": ["Strengthens spine, arms, wrists", "Stretches chest, lungs, shoulders", "Tones abdomen"],
+    "steps": [
+      "Lie face down, tops of feet on mat. Hands beside waist.",
+      "Inhale, press hands and tops of feet firmly into floor.",
+      "Straighten arms, lifting torso and thighs off mat.",
+      "Keep shoulders directly over wrists, rolling shoulders back."
+    ],
+    "common_mistakes": ["Letting thighs rest on floor", "Hanging shoulders next to ears", "Straining lower back"],
+    "precautions": ["Back injury", "Carpal tunnel syndrome", "Pregnancy"]
+  },
+  {
+    "id": "urdhva_dhanurasana",
+    "name": "Wheel Pose",
+    "sanskrit_name": "Urdhva Dhanurasana",
+    "category": "Backbend",
+    "difficulty": "Advanced",
+    "duration": "10-20 seconds",
+    "benefits": ["Strengthens arms, wrists, spine, and legs", "Stretches chest and lungs", "Increases energy"],
+    "steps": [
+      "Lie on back, bend knees, feet flat. Place hands beside head, fingers toward shoulders.",
+      "Press feet and hands into floor, lifting hips and chest.",
+      "Rest crown of head lightly on floor briefly, then press up fully.",
+      "Straighten arms and legs as much as possible."
+    ],
+    "common_mistakes": ["Feet turning out", "Knees splaying apart", "Holding breath"],
+    "precautions": ["Back/wrist injury", "High blood pressure", "Headache"]
+  },
+  {
+    "id": "bitilasana",
+    "name": "Cow Pose",
+    "sanskrit_name": "Bitilasana",
+    "category": "Restorative",
+    "difficulty": "Beginner",
+    "duration": "30 seconds",
+    "benefits": ["Stretches front torso and neck", "Warms up spine", "Relieves stress"],
+    "steps": [
+      "Start on hands and knees (tabletop position).",
+      "Inhale, drop belly toward floor.",
+      "Lift chest and chin, looking up toward ceiling.",
+      "Draw shoulders away from ears."
+    ],
+    "common_mistakes": ["Overarching neck", "Sinking shoulders", "Losing core support"],
+    "precautions": ["Recent neck or back injury"]
+  },
+  {
+    "id": "marjaryasana",
+    "name": "Cat Pose",
+    "sanskrit_name": "Marjaryasana",
+    "category": "Restorative",
+    "difficulty": "Beginner",
+    "duration": "30 seconds",
+    "benefits": ["Stretches back torso and neck", "Relieves spine tension", "Calms brain"],
+    "steps": [
+      "Start on hands and knees (tabletop position).",
+      "Exhale, round spine toward ceiling.",
+      "Release head down, looking toward navel.",
+      "Press hands firmly into mat, broadening shoulders."
+    ],
+    "common_mistakes": ["Forcing head down", "Bending elbows", "Not engaging core"],
+    "precautions": ["Recent neck or back injury"]
+  },
+  {
+    "id": "sukhasana",
+    "name": "Easy Pose",
+    "sanskrit_name": "Sukhasana",
+    "category": "Seated / Meditation",
+    "difficulty": "Beginner",
+    "duration": "5-30 minutes",
+    "benefits": ["Calms brain", "Stretches knees and ankles", "Strengthens back"],
+    "steps": [
+      "Sit cross-legged on floor or blanket.",
+      "Keep spine erect, shoulders relaxed.",
+      "Rest hands on knees, palms up or down.",
+      "Close eyes and focus on breathing."
+    ],
+    "common_mistakes": ["Rounding the back", "Shrug shoulders up", "Straining knees"],
+    "precautions": ["Knee injury"]
+  },
+  {
+    "id": "paschimottanasana",
+    "name": "Seated Forward Bend",
+    "sanskrit_name": "Paschimottanasana",
+    "category": "Seated",
+    "difficulty": "Beginner",
+    "duration": "1-3 minutes",
+    "benefits": ["Stretches spine, shoulders, and hamstrings", "Calms mind and relieves stress", "Aids digestion"],
+    "steps": [
+      "Sit in Dandasana. Inhale and reach arms overhead.",
+      "Exhale, fold forward from hips, keeping spine long.",
+      "Reach for shins, ankles, or feet.",
+      "Rest forehead on legs if possible."
+    ],
+    "common_mistakes": ["Rounding spine to reach feet", "Tensing neck and shoulders", "Forcing stretch"],
+    "precautions": ["Asthma", "Diarrhea", "Back injury"]
+  },
+  {
+    "id": "halasana",
+    "name": "Plow Pose",
+    "sanskrit_name": "Halasana",
+    "category": "Inversion",
+    "difficulty": "Intermediate",
+    "duration": "30-60 seconds",
+    "benefits": ["Stretches shoulders and spine", "Calms nervous system", "Stimulates thyroid gland"],
+    "steps": [
+      "Lie on back, lift legs overhead, then lift hips.",
+      "Lower toes to floor behind head, legs straight.",
+      "Clasp hands on floor behind back, extending arms.",
+      "Keep neck straight, do not turn head."
+    ],
+    "common_mistakes": ["Turning neck", "Rounding lower spine heavily", "Bending knees"],
+    "precautions": ["Menstruation", "Pregnancy", "Neck injury", "High blood pressure"]
+  }
+]
