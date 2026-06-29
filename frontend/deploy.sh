@@ -14,7 +14,7 @@ cd dist
 
 echo "Initializing Git repository in dist..."
 git init
-git checkout -b gh-pages
+git checkout -B gh-pages
 
 echo "Adding all files..."
 git add .
